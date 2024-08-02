@@ -1,0 +1,53 @@
+server:
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:1}
+    url: jdbc:postgresql://${DB_IP:localhost}:${DB_PORT:5432}/${DB_NAME:rivojstorage}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+#  mvc:
+#    cors:
+#      mappings:
+#        "/**":
+#          allowed-origins: "http://84.54.70.22:5173"
+#          allowed-methods: "*"
+#          allowed-headers: "*"
+#          allow-credentials: true
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+    doc-expansion: none
+
+do:
+  spaces:
+    key: DO00KUEACAV6EN2LYAE2
+    secret: RZcZOhkd3Jez3OcXlt0elQx/+2fFfSnDUPgTwk2ZxE
+    endpoint2: https://rivoj-space.nyc3.digitaloceanspaces.com
+    endpoint: https://nyc3.digitaloceanspaces.com
+    region: nyc3
+    bucket: rivoj-space
+
+jwt:
+  expiry: 604800000
+  secret: qwetuykyjhfdgsafgjhkoiutrefdsavzbxcnmktjyhretgwedfvbnjkrjyerhsfg
