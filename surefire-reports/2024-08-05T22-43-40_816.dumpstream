@@ -1,4 +1,4 @@
-# Created at 2024-08-05T16:39:12.561
+# Created at 2024-08-05T22:43:41.114
 Boot Manifest-JAR contains absolute paths in classpath 'D:\Users\HP\java G23\JavaSpring\shaftoli-education\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
