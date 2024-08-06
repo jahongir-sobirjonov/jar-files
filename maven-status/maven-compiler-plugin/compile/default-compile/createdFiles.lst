@@ -4,7 +4,6 @@ uz\rivoj\education\entity\SubjectEntity.class
 uz\rivoj\education\service\DiscountService.class
 uz\rivoj\education\dto\request\AttendanceCR$AttendanceCRBuilder.class
 uz\rivoj\education\dto\request\CommentCR.class
-uz\rivoj\education\service\AttendanceService$1.class
 uz\rivoj\education\dto\request\AttendanceCR.class
 uz\rivoj\education\dto\response\LessonResponse$LessonResponseBuilder.class
 uz\rivoj\education\entity\DiscountEntity$DiscountEntityBuilder.class
@@ -108,7 +107,6 @@ uz\rivoj\education\entity\AttendanceEntity$AttendanceEntityBuilder.class
 uz\rivoj\education\service\jwt\UserDetailsService.class
 uz\rivoj\education\dto\request\UserCR$UserCRBuilder.class
 uz\rivoj\education\dto\response\ChatResponse$ChatResponseBuilder.class
-uz\rivoj\education\service\AttendanceService$2.class
 uz\rivoj\education\dto\error\ErrorDTO.class
 uz\rivoj\education\entity\CommentEntity.class
 uz\rivoj\education\dto\request\MessageCR$MessageCRBuilder.class
