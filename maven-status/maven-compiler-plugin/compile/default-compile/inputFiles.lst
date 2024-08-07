@@ -5,6 +5,7 @@ D:\Users\HP\java G23\JavaSpring\shaftoli-education\src\main\java\uz\rivoj\educat
 D:\Users\HP\java G23\JavaSpring\shaftoli-education\src\main\java\uz\rivoj\education\controller\UserController.java
 D:\Users\HP\java G23\JavaSpring\shaftoli-education\src\main\java\uz\rivoj\education\dto\response\EducationPageResponse.java
 D:\Users\HP\java G23\JavaSpring\shaftoli-education\src\main\java\uz\rivoj\education\repository\DiscountRepository.java
+D:\Users\HP\java G23\JavaSpring\shaftoli-education\src\main\java\uz\rivoj\education\dto\response\AdminHomePageResponse.java
 D:\Users\HP\java G23\JavaSpring\shaftoli-education\src\main\java\uz\rivoj\education\dto\update\LessonUpdateDTO.java
 D:\Users\HP\java G23\JavaSpring\shaftoli-education\src\main\java\uz\rivoj\education\service\UserService.java
 D:\Users\HP\java G23\JavaSpring\shaftoli-education\src\main\java\uz\rivoj\education\dto\update\CheckAttendanceDTO.java

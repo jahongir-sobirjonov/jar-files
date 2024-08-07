@@ -8,6 +8,7 @@ uz\rivoj\education\dto\request\AttendanceCR.class
 uz\rivoj\education\dto\response\LessonResponse$LessonResponseBuilder.class
 uz\rivoj\education\entity\DiscountEntity$DiscountEntityBuilder.class
 uz\rivoj\education\config\BeanConfig.class
+uz\rivoj\education\dto\response\AdminHomePageResponse.class
 uz\rivoj\education\repository\ChatRepository.class
 uz\rivoj\education\dto\response\LessonPageResponse$LessonPageResponseBuilder.class
 uz\rivoj\education\service\TeacherService.class
@@ -141,6 +142,7 @@ uz\rivoj\education\entity\Message.class
 uz\rivoj\education\dto\request\TeacherCR$TeacherCRBuilder.class
 uz\rivoj\education\exception\DataNotFoundException.class
 uz\rivoj\education\dto\error\AppErrorDto.class
+uz\rivoj\education\dto\response\AdminHomePageResponse$AdminHomePageResponseBuilder.class
 uz\rivoj\education\dto\response\ChatResponse.class
 uz\rivoj\education\entity\SubjectEntity$SubjectEntityBuilder.class
 uz\rivoj\education\dto\response\ModuleResponse.class
